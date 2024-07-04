@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <title>Dleohr Vuejs - Documentation</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-spy="scroll" data-target="#sidebar-menu" data-offset="100">
+    <div class="main-wrapper">
+
+		<div class="sidebar" id="sidebar">
+			<div class="sidebar-logo">
+				<a href="">
+					<img src="assets/img/logo-icon.png" class="img-fluid" alt="">
+				</a>
+			</div>
+			<div class="sidebar-inner sidebar-sticky">
+				<div id="sidebar-menu" class="sidebar-menu sidebar-body">
+					<ul class="nav nav-sidebar">
+						<li class="nav-item">
+							<a class="nav-link" href="#introduction">Introduction</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#get-started">Installation</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#requirements">Requirements</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#file_structure">File Structure</a>
+                        </li>
+						<li class="nav-item">
+							<a class="nav-link" href="#file_configuration">File Configuration</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#credits">Credits</a>
+						</li>  
+						<li class="nav-item">
+							<a class="nav-link" href="#support">Support</a>
+						</li>   
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="page-wrapper" id="introduction">
+			<div class="content container-fluid">
+			
+				<div class="page-header">
+					<div class="card">
+						<div class="card-body">
+							<h2>Documentation</h2>
+							<p class="lead mb-0"><strong>Dleohr Vuejs</strong> - Documentation</p>
+						</div>
+					</div>
+				</div>
+				
+				<section class="widget">
+					<h3>Introduction</h3>
+					<ul>
+						<li>Created on: 02 Feb 2021</li>
+						<li>Developed by: <a target="_blank" href="https://dreamguys.co.in/">DreamGuy's Technologies</a></li>
+						<li>Support via email: <a href="mailto:admin@dreamguys.co.in">business@dreamguys.co.in</a></li>
+						<li>Support via Themeforest: <a target="_blank" href="https://themeforest.net/user/dreamguys/">Take me there</a></li>
+					</ul>
+					<p><strong>Dleohr-vuejs</strong>  Template offers you the best template created by the latest version of vuejs 2.6.11 with super responsive web design.Mix supports several common CSS and JQuery. We have also added few reusable components which speedup your development.</p>
+				</section>
+				<section class="widget" id="get-started">	
+					<h3>Installation Guide</h3>
+					<ul>
+						<li>
+                            For developing a vuejs project,node and npm mandatory.To install <strong>https://nodejs.org/en/download/</strong>
+                        </li>
+                        <li>
+                            <strong class="vuejs_proj">Step:1</strong> Open the terminal in your root
+                                    directory,By running the following command you will get a webpack vue-cli: <strong>npm install -g vue-cli</strong>
+                        </li>
+                        <li>
+                            <strong class="vuejs_proj">Step 2:</strong> Open the terminal in your root
+                            directory,By running the following command you will get a full webpack vuejs project folder: <strong>vue init webpack my-project</strong>
+                        </li>
+                        <li>
+                            <strong class="vuejs_proj">Step 3:</strong> Open the terminal,By running the following command you will goto project installed directory: <strong>cd my-project(my-project is which we installed project name.)</strong>
+                        </li>
+                        <li>
+                            <strong class="vuejs_proj">Step 4:</strong>By running the following command, you
+                                    will be able to get all the dependencies in
+                                    your node_modules folder: <strong>npm install</strong>
+                        </li>
+                        <li>
+                            <strong class="vuejs_proj">Step 5:</strong>To run the project, you need to run
+                                    following command in the project directory.<strong>npm run dev</strong>
+                        </li>
+                        <li>
+                            <strong class="vuejs_proj">Step 6:</strong> If you want to make the build in the production mode then run the following command in the root directory. <strong>npm run build</strong>
+                        </li>
+					</ul>
+				</section>				
+				<section class="widget" id="requirements">
+					<h3>Requirements</h3>
+					<li>Node</li>
+					<li>Npm</li>
+					<li>Notepad++ or visual studio or subline text</li>
+				
+				</section>		
+				<section class="widget" id="file_structure">
+					<h3>File Structure</h3>
+					
+                    <p>
+                        Extract the zip file you received after purchase and you would find the exact below files and folders:
+                        </p>
+						<pre><code>Dleohr-vuejs/
+|--template-1/dleohr-horizontal
+|--build
+ |--build.js
+ |--webpack.base.config.js
+ |--webpack.dev.config.js
+ |--webpack.prod.config.js
+|--config
+ |--dev.env.js
+ |--index.js
+ |--prod.env.js
+|--node_modules(all the plugin will be here which we installed)
+|--src 
+ |--assets
+  |--css
+  |--fonts
+  |--img
+  |--js
+  |--plugins
+ |--components
+  |--dashboard
+  |--employee
+  |--layout
+   |--Header.vue
+   |--Navbar.vue
+  |--leave
+  |--manager
+  |--pages
+  |--payroll
+  |--reports
+  |--review
+  |--settings
+ |--json
+  |--admin
+  |--company
+  |--contact
+  |--payroll
+  |--profile
+  |--reports
+  |--timeoff                                       
+ |--router
+  |--index.js(all page routes will be called here)
+ |--App.vue
+ |--main.js
+|--static
+|--babelrc
+|--editorconfig
+|--gitignore
+|--postcssrc.js					
+|--index.html
+|--package-lock.json
+|--package.json
+|--README.md
+|--template-1/dleohr-vertical [same as template-1/horizontal folder]
+|--template-2/dleohr-horizontal and vertical [same as template-1 folder]
+							</code>
+							</pre>
+                </section>
+              
+				
+                <section class="widget" id="file_configuration">
+                    <h3>File Configuration</h3>
+							<h4>How to change Logo ? </h4>
+							<p>You can change the logo or replace it from img folder or you can edit it from HTML file.</p>
+						
+<pre><code>&lt;div class="logo ml-2 mt-3"&gt;
+  &lt;a href="index.html"&gt;
+	&lt;img src="assets/img/logo.png" class="img-fluid header_image" alt="Logo"&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+						
+							<h4>How to change Header background Image ? </h4>
+							<p>You can change the header background image in style.css as per your wish</p>
+							<p><img src="assets/img/header_color.jpg" alt=""></p>
+						
+					
+                </section>
+				
+				<section class="widget" id="credits">
+					<h3>Credits</h3>
+							<p>We've used the following resources as listed. These are some awesome creation and we are thankful to the community.</p>
+							<ul>
+								<li><a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
+								<li><a target="_blank" href="https://jquery.com/">Jquery</a></li>
+								<li><a target="_blank" href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
+								<li><a target="_blank" href="https://select2.github.io/">Select2</a></li>
+								<li><a target="_blank" href="http://www.google.com/fonts">Google Fonts</a></li>
+								<li><a target="_blank" href="https://jqueryui.com/">Jquery UI</a></li>
+								<li><a target="_blank" href="https://popper.js.org/">Popper JS</a></li>
+							</ul>
+				</section>
+				
+				<section class="widget mb-0" id="support">
+					<h3>Support</h3>
+					<p class="mb-0">If you have any queries please contact us through email: <strong>business@dreamguys.co.in</strong></p>
+				</section>
+			</div>
+		</div>    
+	</div>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
